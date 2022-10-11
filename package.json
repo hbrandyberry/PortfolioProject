@@ -4,8 +4,9 @@
   "description": "Git and NPM",
   "main": "index.html",
   "scripts": {
+    "lite": "lite-server", 
+    "scss": "sass css:css",
     "start": "npm run lite",
-    "lite": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,7 +16,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.6.1"
+    "lite-server": "^2.6.1",
+    "sass": "^1.55.0"
   },
   "bugs": {
     "url": "https://github.com/hbrandyberry/PortfolioProject/issues"
