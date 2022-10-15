@@ -36,6 +36,17 @@ header h2 {
   margin-top: -30px;
 }
 
+.loginBTN {
+  background-color: #C2B171;
+  border-color: #C2B171;
+  color: #4C1A03;
+}
+
+.loginBTN:hover {
+  background-color: #7E754C;
+  border-color: #7E754C;
+}
+
 .row-content {
   padding: 50px 0;
   border-bottom: 1px ridge;
@@ -107,6 +118,11 @@ a:hover {
 .submit-btn:hover {
   background-color: #7E754C;
   border-color: #7E754C;
+}
+
+#loginModal .modal-header {
+  background-color: #7E754C;
+  color: white;
 }
 
 /*# sourceMappingURL=styles.css.map */

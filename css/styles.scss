@@ -48,6 +48,17 @@ header {
     }
 }
 
+.loginBTN {
+    background-color: $color-pale;
+    border-color: $color-pale;
+    color: #4C1A03;
+}
+
+.loginBTN:hover {
+    background-color: $color-mid;
+    border-color: $color-mid;
+}
+
 .row-content {
     padding: 50px 0;
     border-bottom: 1px ridge;
@@ -119,4 +130,9 @@ a:hover {
 .submit-btn:hover {
     background-color: $color-mid;
     border-color: $color-mid;
+}
+
+#loginModal .modal-header {
+    background-color: $color-mid;
+    color: white;
 }
